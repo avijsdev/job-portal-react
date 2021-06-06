@@ -1,0 +1,29 @@
+.projects {
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 3px;
+    height: 89vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.projects>p {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.git-detail {
+    border-bottom: 1px solid grey;
+    padding: 16px 0;
+}
+
+.git-detail>p {
+    font-size: 15px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}

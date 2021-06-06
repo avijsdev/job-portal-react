@@ -1,0 +1,10 @@
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
