@@ -15,3 +15,9 @@
 .new-job button{
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .new-job input {
+        width: 100%;
+    }
+}

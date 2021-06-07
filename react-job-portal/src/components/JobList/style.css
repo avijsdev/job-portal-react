@@ -53,3 +53,12 @@
 .details span {
     opacity: 0.6;
 }
+
+@media screen and (max-width: 600px) {
+    .header,.details {
+        flex-direction: column;
+    }
+    .details span {
+        margin: 5px 0;
+    }
+}

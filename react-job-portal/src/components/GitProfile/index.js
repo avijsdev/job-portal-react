@@ -5,12 +5,12 @@ import './style.css';
 function GitProfile({ projects }) {
     return (
         <div className="projects">
-            <p>Your Git Projects</p>
+            <p className="title">Your Git Projects</p>
             {projects && projects.map(obj => {
                 return (
                     <article className="git-detail" key={obj.html_url}>
-                        <p>{obj.name}</p>
-                        <p>{obj.description}</p>
+                        <p className="name">{obj.name}</p>
+                        <p className="desc">{obj.description}</p>
                         <a href={obj.html_url} target="_blank">Navigate to Project Repo</a>
                     </article>
                 )

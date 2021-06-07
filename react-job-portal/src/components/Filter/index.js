@@ -38,9 +38,6 @@ function Filter({ onSubmit, onReset }) {
     }
     return (
         <div className="main-content">
-            {/* <label>Your Profile</label>
-            <label for="min">Min Cost</label>
-            <label for="max">Max Cost</label> */}
             <select
                 value={skills}
                 onChange={e => handleChange(e, 'skill')}

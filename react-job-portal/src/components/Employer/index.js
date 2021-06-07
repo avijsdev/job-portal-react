@@ -24,8 +24,8 @@ function Employer() {
         });
     }, [])
     return (
-        <div style={{ width: '100vw' }}>
-            <div className="post-btn"><button onClick={handleNewPost}>{newJob ? 'X' : 'Post New Job'}</button></div>
+        <div className="emp-content">
+            <div className="post-btn"><button onClick={handleNewPost} className={newJob ? 'small' : ''}>{newJob ? 'X' : 'Post New Job'}</button></div>
             {newJob && <NewJob onSubmit={handleSubmit} />}
             <JobList from="employer" jobs={availJobs} />
         </div>

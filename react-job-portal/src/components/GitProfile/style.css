@@ -7,12 +7,24 @@
     overflow-x: hidden;
 }
 
-.projects>p {
+.title {
+    border-bottom: 1px solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name {
     margin: 10px 0px;
     font-size: 20px;
     font-weight: bold;
-    border-bottom: 1px solid;
     padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.desc {
+    margin: 10px 0px;
+    padding-bottom: 5px;
+    opacity: 0.6;
 }
 
 .git-detail {
@@ -22,8 +34,5 @@
 
 .git-detail>p {
     font-size: 15px;
-    margin: 5px 0;
-    font-weight: bold;
-    text-decoration: underline;
     text-align: center;
 }

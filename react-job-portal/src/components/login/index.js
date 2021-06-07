@@ -30,9 +30,7 @@ function Login({ title, submit, classes }) {
                 placeholder="Password"
                 value={password}
                 onChange={event => handleChange(event, 'password')} />
-            <div item xs={5}>
-                <button type="button" onClick={handleSubmit} disabled={userName.length === 0 || password.length === 0}>Sign In</button>
-            </div>
+            <button type="button" onClick={handleSubmit} disabled={userName.length === 0 || password.length === 0}>Sign In</button>
         </div>
 
     )
